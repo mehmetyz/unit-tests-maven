@@ -19,6 +19,6 @@ jobs:
       - name: Thundra Maven Test Instrumentation
         uses: thundra-io/thundra-maven-test-action@v1
         with:
-          apikey: 12ea2270-76ef-4494-9aae-3ced05c4cfe7
-          project_id: c57373a9-79b1-4bcd-85bc-9bb267f67495
+          apikey: ${{secrets.THUNDRA_API_KEY}}
+          project_id: ${{secrets.THUNDRA_PROJECT_ID}}
           command: mvn clean install
