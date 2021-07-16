@@ -22,7 +22,7 @@ class ApplicationTest {
         app.addStudent("Elif", "Akın", 80);
         app.addStudent("Özgür", "Kulen", 45);
         app.addStudent("Ahmet", "Kara", 33);
-        app.addStudent("Mehmet", "Akyol", 60);
+        app.addStudent("Mehmet", "Çetin", 60);
     }
 
 
