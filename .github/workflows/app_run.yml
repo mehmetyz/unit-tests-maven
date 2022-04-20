@@ -17,8 +17,7 @@ jobs:
           distribution: 'adopt'
       
       - name: Run Maven
-        with:
-          command: mvn clean install
+        run: mvn clean install
       
       - name: Foresight Test Report Uploader
         uses: actions/upload-artifact@v2
